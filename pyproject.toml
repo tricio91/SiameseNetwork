@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "siamese"
+version = "0.1.0"
+description = "Siamese metric-learning image classification with a prototype gallery"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "Pillow",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

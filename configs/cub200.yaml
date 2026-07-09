@@ -1,0 +1,36 @@
+# Configuration for the CUB-200-2011 fine-grained bird experiment.
+# Point data_dir at a folder with one subfolder per species.
+
+data_dir: data/CUB_200_2011/images
+checkpoints_dir: checkpoints
+
+embed_dim: 512
+backbone: resnet34
+freeze_bn: true
+
+img_size: 224
+
+rotation_degrees: 2.0
+translate_pixels: 10
+augmentation_factor: 4
+
+batch_size: 32
+n_classes_per_batch: 8
+n_samples_per_class: 4
+learning_rate: 0.0001
+n_epochs: 30
+margin: 0.3
+warmup_epochs: 3
+min_lr: 0.000001
+patience: 5
+weight_decay: 0.0001
+num_workers: 4
+seed: 42
+
+train_ratio: 0.70
+val_ratio: 0.15
+test_ratio: 0.15
+
+keep_fraction: 0.975
+proto_mode: mean
+pca_components: 128
