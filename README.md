@@ -168,13 +168,8 @@ configs/          # experiment configs
 docs/             # figures used in this README
 ```
 
-## Notes
-
-- Everything runs on CPU but is much faster on a GPU; the code picks CUDA automatically.
-- CUB-200-2011 is distributed for non-commercial research and educational use — check the
-  dataset page for the exact terms before redistributing anything.
-
 ## License
 
-Code released under the [MIT License](LICENSE). The CUB-200-2011 dataset keeps its own terms.
+MIT.
+CUB-200-2011 is distributed for non-commercial research.
 
