@@ -86,7 +86,8 @@ against the prototype gallery. Backbone ResNet-34, 512-d embeddings reduced to 1
 | Metric | Value |
 |---|---|
 | Gallery top-1 accuracy | **97.3 %** |
-| Macro-averaged F1 | **0.973** |
+| Weighted-averaged precision | **0.974** |
+| Weighted-averaged recall | **0.973** |
 | Weighted-averaged F1 | **0.973** |
 | Images evaluated | 2,945 across 50 classes |
 
