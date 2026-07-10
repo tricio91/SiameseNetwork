@@ -119,7 +119,7 @@ data/
   ...
 ```
 
-The trained weights and the dataset are **not** committed (they are large and `.gitignore`d);
+The trained weights and the dataset are **not** committed;
 reproduce the backbone with `scripts/train.py` on your own copy of the data.
 
 ## Usage
