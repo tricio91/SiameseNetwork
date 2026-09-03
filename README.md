@@ -78,6 +78,12 @@ The dataset images themselves are **not** included in this repo. The 50 selected
 
 </details>
 
+### Example images
+
+A sample of 25 of the 50 target species from CUB-200-2011:
+
+![Sample images from the 50-class subset](docs/birds_grid_5x5.png)
+
 ## Results
 
 Metrics below are measured **on the 50-class subset** (2,945 images), classifying every image
